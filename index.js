@@ -1,6 +1,6 @@
 /* External Module Dependencies */
-var TruffleContractCompiler = require('truffle/lib/contracts')
-var TruffleContractMigrator = require('truffle/lib/commands/migrate')
+var TruffleContractCompiler = require('truffle-compile')
+var TruffleContractMigrator = require('truffle-migrate')
 var SolidityParser = require('solidity-parser')
 
 /* Internal Module Dependencies */
